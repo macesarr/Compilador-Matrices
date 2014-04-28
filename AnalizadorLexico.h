@@ -29,8 +29,6 @@ void AnalizadorLexico :: metAnalizador () {
 
     while (getline (varArchivo, varTempLinea)){
 
-      cout << varTempLinea << endl;
-
       this -> metSplitCadena (varTempLinea);
       printf("\n");
 
