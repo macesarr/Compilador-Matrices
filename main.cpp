@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include "AnalizadorLexico.h"
 
 using namespace std;
@@ -6,7 +7,7 @@ using namespace std;
 
 int main(){
 
-
+  
   AnalizadorLexico varAnalizadorLexico;
   varAnalizadorLexico.metAnalizador();
 
